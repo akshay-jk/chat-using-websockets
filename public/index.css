@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background-color: black;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+}
+
+iframe {
+    padding: 0;
+    margin: 0;
+}
+
+#mute {
+    margin-top: 25vh;
+    position: fixed;
+}
+
+.chat-div {
+    margin-top: 10%;
+    background-color: tomato;
+    border: 2px solid black;
+    border-radius: 2%;
+    position: fixed;
+}
+
+.messages {
+    font-family: 'Montserrat', sans-serif;
+    height: 30vh;
+    overflow: auto;
+}
